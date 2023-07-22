@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Juego: Ahorcado</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Juego: Ahorcado</h1>
+    <svg id="hangman" width="150" height="150">
+      <line x1="10" y1="140" x2="70" y2="140" stroke="black" stroke-width="3" />
+      <line x1="40" y1="20" x2="40" y2="140" stroke="black" stroke-width="3" />
+      <line x1="40" y1="20" x2="75" y2="20" stroke="black" stroke-width="3" />
+      <line x1="75" y1="20" x2="75" y2="40" stroke="black" stroke-width="3" />
+      <circle cx="75" cy="60" r="20" stroke="black" stroke-width="3" />
+      <line x1="75" y1="80" x2="75" y2="110" stroke="black" stroke-width="3" />
+      <line x1="75" y1="90" x2="55" y2="80" stroke="black" stroke-width="3" />
+      <line x1="75" y1="90" x2="95" y2="80" stroke="black" stroke-width="3" />
+      <line x1="75" y1="110" x2="55" y2="130" stroke="black" stroke-width="3" />
+      <line x1="75" y1="110" x2="95" y2="130" stroke="black" stroke-width="3" />
+    </svg>
+    <p id="word-display"></p>
+    <p>Elige una letra:</p>
+    <input type="text" id="letter-input" maxlength="1">
+    <button id="guess-btn">Adivinar</button>
+    <p id="message"></p>
+    <button id="reset-btn">Reiniciar</button>
+  </div>
+
+  <script src="assets/JS/script.js"></script>
+</body>
+</html>

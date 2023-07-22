@@ -1,0 +1,33 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 10px;
+}
+#hangman{
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    background: white;
+    border: 2px solid #000;
+}
+#word-display{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#letter-input{
+    width: 30px;
+    text-align: center;
+}
+#message {
+    font-weight: bold;
+    margin-top: 10px;
+}
+#reset-btn{
+    margin-top: 20px;
+    display: none;
+}
